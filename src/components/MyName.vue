@@ -11,11 +11,6 @@ export default {
     return {
       name: 'Tomoki'
     }
-  },
-  methods: {
-    changeName() {
-      this.name = prompt('Enter your Name', this.name) || this.name
-    }
   }
 }
 </script>
@@ -24,7 +19,7 @@ export default {
 .my-name {
   font-size: 1.2rem;
   cursor: pointer;
-  color: #333;
+  color: #fff;
 }
 .my-name:hover {
   color: #007bff;

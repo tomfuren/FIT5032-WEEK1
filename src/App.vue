@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import MyName from './components/MyName.vue'
 </script>
 
 <template>
@@ -15,6 +16,9 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+  <div id="app">
+    <MyName />
+  </div>
 </template>
 
 <style scoped>
@@ -25,6 +29,10 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+}
+#app {
+  text-align: center;
+  margin-top: 50px;
 }
 
 @media (min-width: 1024px) {
